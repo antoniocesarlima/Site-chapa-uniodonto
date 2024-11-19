@@ -30,3 +30,36 @@ function openModal03() {
         }
     })
 }
+
+function openModal04() {
+    const modal = document.getElementById('modal-proposal-board04');
+    modal.classList.add('open');
+
+    modal.addEventListener('click', (e) => {
+        if(e.target.id == 'close04' || e.target.id == 'modal-proposal-board04') {
+            modal.classList.remove('open');
+        }
+    })
+}
+
+function openModal05() {
+    const modal = document.getElementById('modal-proposal-board05');
+    modal.classList.add('open');
+
+    modal.addEventListener('click', (e) => {
+        if(e.target.id == 'close05' || e.target.id == 'modal-proposal-board05') {
+            modal.classList.remove('open');
+        }
+    })
+}
+
+function openModal06() {
+    const modal = document.getElementById('modal-proposal-board06');
+    modal.classList.add('open');
+
+    modal.addEventListener('click', (e) => {
+        if(e.target.id == 'close06' || e.target.id == 'modal-proposal-board06') {
+            modal.classList.remove('open');
+        }
+    })
+}

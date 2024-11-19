@@ -216,30 +216,8 @@ footer {
         margin-bottom: 10%;
     }
 
-    /* animation */
-    /* .more-person-info {
-        view-timeline: --subjectReveal block;
-        animation-timeline: --subjectReveal;
-      
-        animation-name: appear;
-        animation-range: entry 10% contain 25%;
-        animation-fill-mode: both;
-        animation-duration: 1ms;
-      } */
-      
-      /* @keyframes appear {
-        from {
-          opacity: 0;
-          transform: scaleX(0);
-        }
-      
-        to {
-          opacity: 1;
-          transform: scaleX(1);
-        }
-      } */
-
-    .person-info-span {
+    
+        .person-info-span {
         margin: 0;
         margin-right: 2%;
     }
@@ -293,13 +271,21 @@ footer {
         margin-bottom: 4%;
     }
 
-    
+    .num-chapa {
+        font-size: 5em;
+        text-align: center;
+        color: #fff;
+    }
 
+    .line-num {
+        margin-bottom: 00px;
+        margin-top: 00px;
+    }
 
+    .p-num {
+        margin-top: 0px;
+    }
 }
-
-
-
 
 /* .color1 { #fb8b04 };
 .color2 { #fcc27c };
