@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Uniodonto</title>
+</head>
+<body>
+    <header class="introduction-header">
+        <img src="images/logoChapa.png" alt="Logo da chapa" class="logo-chapa">
+        <span class="text-header"><h1>União na odontologia</h1></span>
+        <div class="line"></div>
+    </header>
+
+    <div class="more-info">
+        <span class="more-info-span"><p class="more-info-p">DESCUBRA MAIS</p></span>
+        <img src="images/down-arrow-circle-svgrepo-com.svg" alt="" class="down-arrow">
+    </div>
+
+    <section class="proposal-board">
+        <div class="subtitle-board">
+            <h3 class="text-subtitle-board">Conheça Nossas Propostas</h3>
+        </div>
+
+        <div class="proposal">
+            <h3>Proposta 01</h3>
+            <p>Incentivo à formação de grupos de estudo e liqa acadêmicas que contemplem desde o primeiro semestre do curso.</p>
+            <button onclick="openModal()" class="btn">Leia mais</button>
+
+        </div>
+        <div class="proposal">
+            <h3>Proposta 02</h3>
+            <p>Estímulo à produção do currículo lattes desde o início do curso para aumentar a experiência profissional.</p>
+            <button onclick="openModal02()" class="btn">Leia mais</button>
+        </div>
+        <div class="proposal">
+            <h3>Proposta 03</h3>
+            <p>Parcerias esportivas que colaborem com outras instituições para ampliar a prática esportiva.</p>
+            <button onclick="openModal03()" class="btn">Leia mais</button>
+        </div>
+
+    </section>
+
+    <section class="info-person">
+        <div class="more-person-info">
+            <span class="person-info-span">
+                <p class="person-info-p">QUEM SOMOS</p>
+            </span>
+            <img src="images/question-circle-svgrepo-com.svg" alt="" class="question">
+        </div>
+
+        <div class="people person1">
+            <img src="images/pamelaFoto.png" alt="foto da presidente" class="picture">
+            <span class="span-person135"><p>Pâmela é presidente da Chapa UniOdonto, suas propostas tem como objetivo fortalecer a parceria entre discentes e gestão, promovendo comunicação, união e a defesa dos interesses dos acadêmicos.</p></span>
+        </div>
+            
+        <div class="people person2">
+            <span class="span-person24"><p>Thiery é vice-presidente da chapa uniodonto, suas propostas têm como objetivo favorecer a comunicação com docentes, funcionários e reitoria. Buscando sempre o aprimoramento e desenvolvimento do curso</p></span>
+            <img src="images/thierryFoto.png" alt="foto do vice presidente" class="picture">
+        </div>
+
+        <div class="people person3">
+            <img src="images/cesarFoto.png" alt="foto do secretario" class="picture">
+            <span class="span-person135"><p>Cesar é secretário da chapa uniodonto. Suas propostas tem como objetivo integrar tecnologias e desenvolvimento de sistemas buscando eficiência, aprimoramento e gestão do curso de odontologia.</p></span>
+        </div>
+
+        <div class="people person4">
+            <span class="span-person24"><p>Eduarda é do marketing da chapa uniodonto. Suas propostas tem como objetivo divulgar e dar mais visibilidade para o curso mostrando a rotina do dia a dia dos alunos nas clínicas, salas de aula, laboratório de estudo entre outros.</p></span>
+            <img src="images/eduardaFoto.png" alt=" foto da responsavel do marketing" class="picture">
+        </div>
+
+        <div class="people person5">
+            <img src="images/charlesFoto.png" alt="foto do responsavel do cientifico" class="picture">
+            <span class="span-person135"><p>Charles é diretor da parte científica da chapa uniodonto. Comprometido em promover a integração e o incentivo à pesquisa, propõe a criação eventos científicos para troca de experiências e projetos que envolvam alunos desde o primeiro semestre.</p></span>
+        </div>
+
+    </section>
+
+    <footer class="end-footer">
+        <a href="https://www.instagram.com/chapa.uniodonto?igsh=ZTE0Nm1wdTkyd3d0"><img src="images/instagram-1-svgrepo-com.svg" alt="icone do instagram" class="iconInstagram"></a>
+        <a href="mailto:uniodontochapa@gmail.com"><img src="images/gmail-svgrepo-com.svg" alt="icone do gmail" class="iconGmail"></a>
+    </footer>
+
+    <div class="modal-proposal-board" id="modal-proposal-board01">
+        <div class="modal" id="modal-proposal01">
+            <button class="close" id="close01">X</button>
+            <h2>Proposta 01</h2>
+            <p>Nossa proposta é implementar a formação de grupos de estudo e ligas acadêmicas desde o início do semestre, promovendo troca de conhecimentos, integração e desenvolvimento acadêmico.<br> Essas iniciativas fortalecem habilidades, aprofundam áreas de interesse e ampliam o contato com a prática profissional.</p>
+        </div>
+    </div>
+
+    <div class="modal-proposal-board" id="modal-proposal-board02">
+        <div class="modal" id="modal-proposal02">
+            <button class="close" id="close02">X</button>
+            <h2>Proposta 02</h2>
+            <p>Nossa proposta é priorizar os alunos a iniciarem a construção de seus Currículos Lattes desde o início do curso, com o objetivo de orientá-los passo a passo nesse processo.<br> Essa prática possibilita o registro de atividades acadêmicas e científicas, enriquecendo a formação e fortalecendo o perfil profissional para futuras oportunidades no mercado de trabalho e na pesquisa.</p>
+        </div>
+    </div>
+
+    <div class="modal-proposal-board" id="modal-proposal-board03">
+        <div class="modal" id="modal-proposal03">
+            <button class="close" id="close03">X</button>
+            <h2>Proposta 03</h2>
+            <p>Nossa proposta visa a parceria esportiva entre instituições de ensino como uma iniciativa estratégica que promove o desenvolvimento de atletas e fortalece os laços entre as universidades.<br> Essa união possibilita a troca de experiências, recursos e conhecimento, criando um ambiente mais rico para o crescimento pessoal e esportivo dos acadêmicos.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
